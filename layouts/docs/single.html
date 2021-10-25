@@ -31,10 +31,13 @@
 				{{ partial "sidebar/docs-toc.html" . }}
 			</nav>
 			{{ end -}}
-			{{ if .Site.Params.Rtl }} dir="rtl" {{ end -}} 
-			<div >
+			{{ if .Site.Params.Rtl }}  
+			<div dir="rtl">
 			  {{ .Content }}
 			</div>
+			{{ else -}}
+			{{ .Content }}
+			{{ end -}} 
 			{{ if .Site.Params.editPage -}}
 				{{ partial "main/edit-page.html" . }}
 			{{ end -}}

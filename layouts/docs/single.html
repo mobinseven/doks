@@ -31,13 +31,9 @@
 				{{ partial "sidebar/docs-toc.html" . }}
 			</nav>
 			{{ end -}}
-			{{ if .Site.Language.Rtl -}}
-			<div {{ with .Site.Language.Rtl }} {{ if .Site.Language.Rtl -}} dir="rtl" { else -}} {{ end }} >
+			<div {{ with .Site.Language.Rtl }} {{ if .Site.Language.Rtl -}} dir="rtl" {{ end -}} {{ end }} >
 			  {{ .Content }}
 			</div>
-		  {
-			{{ .Content }}
-			{{ end -}}
 			{{ if .Site.Params.editPage -}}
 				{{ partial "main/edit-page.html" . }}
 			{{ end -}}

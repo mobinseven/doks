@@ -32,10 +32,10 @@
 			</nav>
 			{{ end -}}
 			{{ if .Site.Language.Rtl -}}
-			<div dir="rtl">
+			<div {{ with .Site.Language.Rtl }} {{ if .Site.Language.Rtl -}} dir="rtl" { else -}} {{ end }} >
 			  {{ .Content }}
 			</div>
-		  {{ else -}}
+		  {
 			{{ .Content }}
 			{{ end -}}
 			{{ if .Site.Params.editPage -}}

@@ -31,7 +31,8 @@
 				{{ partial "sidebar/docs-toc.html" . }}
 			</nav>
 			{{ end -}}
-			<div {{ if .Site.Params.Rtl }} dir="rtl" {{ end -}} >
+			{{ if .Site.Params.Rtl }} dir="rtl" {{ end -}} 
+			<div >
 			  {{ .Content }}
 			</div>
 			{{ if .Site.Params.editPage -}}

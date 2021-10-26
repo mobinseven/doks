@@ -25,7 +25,7 @@
     alertText = "Introductie van het Doks-kinderthema, verschillende DX + UX-updates en meer! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Bekijk Doks v0.2</a>"
 
 [fa]
-  languageName = "Persian"
+  languageName = "پارسی"
   contentDir = "content/fa"
   weight = 20
   [fa.params]

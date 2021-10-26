@@ -38,5 +38,3 @@
     alertText = "از اینا DX + UX-updates en meer! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Bekijk Doks v0.2</a>"
     customCSS = ["fa/assets/css/fonts.css"]
     customJS = ["fa/assets/js/moment-jalali.browser.js","fa/assets/js/persian-date.js"]
-    [fa.params.options]
-      collapsibleSidebar = false

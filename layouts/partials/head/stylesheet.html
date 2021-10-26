@@ -8,7 +8,9 @@
   {{ $secureCSS := $css | resources.Fingerprint "sha512" -}}
   <link rel="stylesheet" href="{{ $secureCSS.Permalink }}" integrity="{{ $secureCSS.Data.Integrity }}" crossorigin="anonymous">
 {{ end -}}
-{{ if .Site.Params.Rtl }}      
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
-{{ end -}} 
+
+{{ range .Site.Params.customCSS }}
+<link rel="stylesheet" href="{{ . | relURL }}" />
+{{ end }}
+
 <noscript><style>img.lazyload { display: none; }</style></noscript>

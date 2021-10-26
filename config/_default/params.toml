@@ -73,6 +73,10 @@ docsRepo = "https://github.com/h-enk/doks"
 docsRepoBranch = "master"
 editPage = false
 
+# Customizations
+customCSS = []
+customJS = []
+
 [options]
   lazySizes = true
   clipBoard = true

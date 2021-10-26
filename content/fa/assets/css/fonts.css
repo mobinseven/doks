@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Nazanin;
+    src: url(../fonts/Nazanin.woff);
+    unicode-range: U+0030-0039, U+0600-06FF, U+FB8A, U+067E, U+0686, U+06AF7, U+200C, U+200F,U+003A;
+    font-weight: normal;
+    
+}
+
+@font-face {
+    font-family: Nazanin;
+    src: url(../fonts/NazaninBd.woff);
+    unicode-range: U+0030-0039, U+0600-06FF, U+FB8A, U+067E, U+0686, U+06AF7, U+200C, U+200F,U+003A;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Nazanin;
+    src: url(../fonts/NazaninBd.woff);
+    unicode-range: U+0030-0039, U+0600-06FF, U+FB8A, U+067E, U+0686, U+06AF7, U+200C, U+200F,U+003A;
+    font-weight: 900;
+}
+
+* {
+    font-family: Nazanin, var(--bs-body-font-family) !important;
+}

@@ -87,6 +87,6 @@ customJS = []
   breadCrumb = false
   highLight = true
   kaTex = false
-  collapsibleSidebar = true
+  collapsibleSidebar = false
   multilingualMode = true
   docsVersioning = false

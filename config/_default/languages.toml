@@ -36,5 +36,5 @@
     titleHome = "خانه"
     footer = "&copy; پیشگامان شبکه‌های خردگرا"
     alertText = "از اینا DX + UX-updates en meer! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Bekijk Doks v0.2</a>"
-    customCSS = ["assets/css/fonts.css"]
-    customJS = ["assets/js/moment-jalali.browser.js","assets/js/persian-date.js"]
+    customCSS = ["fa/assets/css/fonts.css"]
+    customJS = ["fa/assets/js/moment-jalali.browser.js","fa/assets/js/persian-date.js"]
